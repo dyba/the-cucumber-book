@@ -1,0 +1,7 @@
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new('cucumber')
+
+Cucumber::Rake::Task.new('cucumber:wip') do |t|
+  t.cucumber_opts = %w{--profile wip}
+end

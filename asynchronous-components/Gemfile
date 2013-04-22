@@ -1,0 +1,14 @@
+source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'service_manager'
+gem 'activerecord'
+gem 'sqlite3'
+
+group :development do
+  gem 'rake'
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'capybara'
+  gem 'launchy'
+end

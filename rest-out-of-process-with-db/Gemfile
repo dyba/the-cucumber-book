@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'json'
+gem 'mongo'
+
+group :test do
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'httparty'
+  gem 'childprocess'
+  gem 'debugger'
+end
